@@ -1,5 +1,5 @@
 import './App.css'
-import {  Marquee3D, MarqueeDemo,OrbitingCirclesDemo} from './components/display/test'
+import {  Marquee3D, MarqueeDemo} from './components/display/test'
 import { BentoGridThirdDemo } from './components/display/grid'
 import BoxReveal from './components/magicui/box-reveal'
 import LetterPullup from './components/magicui/letter-pullup'
@@ -20,7 +20,7 @@ return (
   
     <LetterPullup words={"Vao line."} delay={0.05}  />
     <div className='w-full flex justify-end items-center h-screen'>
-    <OrbitingCirclesDemo/>
+    {/* <OrbitingCirclesDemo/> */}
     <Marquee3D/>
     </div>
     <div className='w-full flex justify-end items-center h-screen '>
